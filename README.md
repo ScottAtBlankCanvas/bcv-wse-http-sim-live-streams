@@ -16,6 +16,13 @@ curl "http://localhost:8086/streamcontrol?app=live&action=start&stream=testStrea
 curl "http://localhost:8086/streamcontrol?app=live&action=stop&stream=testStream"
 ```
 
+3. Lists streams running (started by this module)
+```
+curl "http://localhost:8086/streamcontrol?app=live&action=list"
+```
+Note: currently logs the stream names to the log file
+
+
 ## Config
 
 1. Drop jar into WSE/lib
