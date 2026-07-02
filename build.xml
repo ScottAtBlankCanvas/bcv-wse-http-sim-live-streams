@@ -19,7 +19,7 @@
 			<classpath refid="wowza-classpath"/>
 		</javac>
 
-		<jar basedir="build/classes" jarfile="build/${jar.filename}">
+		<jar basedir="build/classes" jarfile="target/${jar.filename}">
 		</jar>
 	</target>
 
